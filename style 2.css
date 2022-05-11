@@ -1,0 +1,23 @@
+body{
+ background: black;
+ color: White;
+}
+
+h1{
+  margin-left: 120px;
+}
+
+img{
+   width: 50%;
+   heigth: 50%;
+   margin-left: 90px;
+}
+
+#botao{
+  width: 150px;
+  heigth: 300px; 
+  margin-left: 100px;
+  font-size: 25px;
+  color: black;
+  text-alling: center;
+}
