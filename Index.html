@@ -1,21 +1,36 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width" />
   <title>lâmpada </title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body id="corpo">
-  <h1 id="titulo">Lâmpada </h1>
-  <div >
-     <img id="imagem" src="img/20220511135855.png" alt="lampada apagada">
-  </div>
-   
-   <div> 
-     <button id="botao" onclick="interruptor()"> Ligar </button> 
-   </div>
 
-  <script src="script.js"></script>
+  <script src="https://cdn-script.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
+
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <div id="corpo">
+    <h1 id="titulo">Lâmpada ligar/desligar</h1>
+    <img id="imagem" src="./acesa.JPEG" alt="lampada apagada">
+    <div class="fx-block">
+      <div class="toggle">
+        <div>
+          <input type="checkbox" id="toggles">
+          <div data-unchecked="On" data-checked="Off">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <script src="./script.js"></script>
 </body>
+
 </html>
